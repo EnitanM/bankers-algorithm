@@ -1,0 +1,58 @@
+----------------------------------------------------------------------
+Banker's algorithm successful request
+AVAILABLE RESOURCES
+[1, 5, 2, 0]
+MAX NUMBER OF REQUESTS FOR EACH CUSTOMER
+[[0, 0, 1, 2], [1, 7, 5, 0], [2, 3, 5, 6], [0, 6, 5, 2], [0, 6, 5, 6]]
+RESOURCE ALLOCATION
+[[0, 0, 1, 2], [1, 0, 0, 0], [1, 3, 5, 4], [0, 6, 3, 2], [0, 0, 1, 4]]
+NEED MATRIX
+[[0, 0, 0, 0], [0, 7, 5, 0], [1, 0, 0, 2], [0, 0, 2, 0], [0, 6, 4, 2]]
+ENTER A COMMAND:
+rq 3 0 0 2 0 
+RESOURCES HAVE BEEN SUCCESSFULLY RELEASED
+
+RESOURCES CURRENTLY AVAILABLE
+[1, 5, 0, 0]
+
+CURRENT NEED MATRIX
+[[0, 0, 0, 0], [0, 7, 5, 0], [1, 0, 0, 2], [0, 0, 0, 0], [0, 6, 4, 2]]
+
+----------------------------------------------------------------------
+Banker's algorithm unsuccessful request
+AVAILABLE RESOURCES
+[1, 5, 2, 0]
+MAX NUMBER OF REQUESTS FOR EACH CUSTOMER
+[[0, 0, 1, 2], [1, 7, 5, 0], [2, 3, 5, 6], [0, 6, 5, 2], [0, 6, 5, 6]]
+RESOURCE ALLOCATION
+[[0, 0, 1, 2], [1, 0, 0, 0], [1, 3, 5, 4], [0, 6, 3, 2], [0, 0, 1, 4]]
+NEED MATRIX
+[[0, 0, 0, 0], [0, 7, 5, 0], [1, 0, 0, 2], [0, 0, 2, 0], [0, 6, 4, 2]]
+ENTER A COMMAND:
+rq 1 0 7 5 0
+RELEASING THE REQUESTED RESOURCES WILL RESULT IN AN UNSAFE STATE
+
+RESOURCES CURRENTLY AVAILABLE
+[1, 5, 2, 0]
+
+CURRENT NEED MATRIX
+[[0, 0, 0, 0], [0, 7, 5, 0], [1, 0, 0, 2], [0, 0, 2, 0], [0, 6, 4, 2]]
+
+----------------------------------------------------------------------
+Banker's algorithm process returning resources to the CPU
+AVAILABLE RESOURCES
+[1, 5, 2, 0]
+MAX NUMBER OF REQUESTS FOR EACH CUSTOMER
+[[0, 0, 1, 2], [1, 7, 5, 0], [2, 3, 5, 6], [0, 6, 5, 2], [0, 6, 5, 6]]
+RESOURCE ALLOCATION
+[[0, 0, 1, 2], [1, 0, 0, 0], [1, 3, 5, 4], [0, 6, 3, 2], [0, 0, 1, 4]]
+NEED MATRIX
+[[0, 0, 0, 0], [0, 7, 5, 0], [1, 0, 0, 2], [0, 0, 2, 0], [0, 6, 4, 2]]
+ENTER A COMMAND:
+dal 0 0 0 1 2
+
+RESOURCES CURRENTLY AVAILABLE
+[1, 5, 3, 2]
+
+CURRENT NEED MATRIX
+[[0, 0, 0, 0], [0, 7, 5, 0], [1, 0, 0, 2], [0, 0, 2, 0], [0, 6, 4, 2]]
