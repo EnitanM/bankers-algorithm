@@ -1,5 +1,5 @@
 # Banker's Algorithm
-###Introduction
+### Introduction
 The Banker's algorithm is a deadlock-avoidance algorithm used to maintain a system's safe state. When a user - a thread in this context - requests a set of resources, if the allocation of these resources will result in an unsafe state, the thread must wait until enough resources are released; otherwise, the requested resources are released to the user and the values of the available resources are updated accordingly. This project primarily focuses on the demonstration of this characteristic of the algorithm.
 
 ### Project Breakdown
