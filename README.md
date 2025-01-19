@@ -11,7 +11,7 @@ There are three .txt files provided to initialize the corresponding matrices for
 
 The source code is contained in the BA.java file. Inspect the source code to understand the data structures at work and the overall design of the project. Lastly, the "expectedoutput.txt" file contains the expected output based on examplary commands made to the system.
 
-### Available Commands
+#### Available Commands
 -  To simulate a process requesting resources, use the following convention in the terminal when prompted to "ENTER A COMMAND:"
 `rq <process ID> <instances requested for each resource>`
 For example, `rq 3 0 0 2 0` is a request by process ID #3 for 0 instances of the first resource type, 0 instances of the second resource type, 2 instances of the third resource type, and 0 instances of the fourth resource type. The values of the process ID and instances are gathered from the need matrix displayed in the terminal.
